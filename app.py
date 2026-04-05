@@ -21,7 +21,7 @@ def main():
 	choice = st.sidebar.selectbox("Menu", menu)
 
 	if choice=="Home":
-		img1 = Image.open("IMG\Realty_Growth.jpg")
+		img1 = Image.open("IMG/Realty_Growth.jpg")
 		st.image(img1)
 		st.write("""
 				### Thinking Ahead
