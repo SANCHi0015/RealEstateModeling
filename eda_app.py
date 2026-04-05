@@ -9,7 +9,7 @@ def run_eda_app():
 	df = pd.read_csv("Final_Project.csv")
 
 	if submenu == "Descriptive":
-		img1 = Image.open("IMG\Real_Estate.jpg")
+		img1 = Image.open("IMG/Real_Estate.jpg")
 		st.image(img1)
 		
 		with st.expander("Dataset"):
